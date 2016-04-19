@@ -1,4 +1,4 @@
-# infoconv-ws
+# keystore e truststore 
 Chaves keystore - assinadas pela serpro ac homogação - pública e privada para testes
 infoconv.jks  storepass: 123456
 
