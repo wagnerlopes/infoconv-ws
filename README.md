@@ -7,14 +7,21 @@ Com este projeto você poderá testar seu certificado nas diversas situações p
 # Pré-requisitos
  - JDK versão 6 ou superior
  - Apache Maven versão 2.2 ou superior
- - Possuir certificados do tipo e-equipamento
+ - [Possuir certificados do tipo e-equipamento](https://github.com/infoconv/docs/wiki/Certificado-Digital)
 
 ## Como utilizar
 
  - Faça o clone do projeto.
+
+```sh
+
+$ git clone git@github.com:infoconv/infoconv-ws.git
+``` 
+
  - Abra o projeto com sua IDE favorita.
- - Visualize a classe CPFTest
- - Atualize as informações de localização e senhas do seu certificado.
+ - Visualize a classe [CPFTest](https://github.com/infoconv/infoconv-ws/blob/master/src/test/java/br/gov/serpro/infoconv/ws/cpf/CPFTest.java)
+ - Atualize as informações de localização e senhas do seu [certificado](https://github.com/infoconv/docs/wiki/Certificado-Digital).
+ ![Código de acesso ao certificado](https://github.com/infoconv/docs/blob/master/images/configurar-certificado.png?raw=true "Código de acesso ao certificado")
  - Execute os testes e confira se seu certificado está OK.
 
 # Mensagens de Erro de acesso
@@ -187,40 +194,51 @@ entrar em contato com a CAS.
 requisição. Erro na conexão com o banco de dados servidor."
 Erro no momento da conexão com o banco de dados servidor. A
 requisição não pode ser atendida.
+
  -  "CPJ - Erro 02 - Nenhum identificador informado para
 consulta."
 Não foi informado nenhum número de CNPJ para consulta.
+
  -  "CPJ - Erro 03 - Ocorreu um erro no processamento dessa
 requisição. Erro na consulta das informações do CNPJ."
 Ocorreu um erro na consulta às informações de CNPJ. A requisição
 não pode ser atendida.
+
  -  "CPJ - Erro 04 – CNPJ não encontrado. "
 Ocorre quando o CNPJ enviado na requisição não existe.
+
  - "CPJ - Erro 05 – CNPJ já informado nessa consulta. "
 Ocorre quando o CNPJ já foi consultado na mesma requisição.
+
  - "CPJ - Erro 06 – CNPJ inválido. "
 Ocorre quando o CNPJ informado para consulta está com o dígito
 verificador incorreto ou quando o CNPJ informado não está dentro do
 padrão indicado no manual.
+
  - "CPJ - Erro 07 – No máximo 50 itens podem ser consultados de
 cada vez para este perfil."
 Ocorre no qüinquagésimo primeiro CNPJ para os perfis 1 e 2, quando
 são consultados mais de 50 itens de uma única vez. Os CNPJ
 excedentes são ignorados.
+
  - "CPJ - Erro 08 – Registro indisponível no momento."
 Pode ocorrer quando apenas o registro encontra-se indisponível no
 momento da requisição.
+
  - "CPJ - Erro 09 – Sistema (CNPJ) indisponível no momento."
 Pode ocorrer quando toda a base CNPJ encontra-se indisponível no
 momento da requisição.
+
  - "CPJ - Erro 10 – Este perfil não permite consulta por lote."
 Ocorre no perfil 3 do CNPJ ao tentar fazer uma requisição com mais
 de 1 CNPJ.
+
  - "CPJ - Erro 11 - Certificado Digital deve ser do Tipo e-
 Equipamento."
 Ocorre quando a requisição é feita usando um certificado que não é
 do tipo e-Equipamento/e-Servidor (um certificado do tipo e-CPF ou
 e-CNPJ, por exemplo).
+
  - CPJ - Erro 00 - Erro " & numErro & "desconhecido. Persistindo
 o erro, favor entrar em contato com a CAS."
 Indica que houve um erro não catalogado. Caso o erro persista, favor
