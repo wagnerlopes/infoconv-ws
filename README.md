@@ -26,7 +26,8 @@ $ git clone git@github.com:infoconv/infoconv-ws.git
 
 # Lista de CPF's para testes
 
-Na base de homologação você pode utilizar os CPF listado na tabela [Relacao de cpfs.ods](https://github.com/infoconv/docs)
+Na base de homologação você pode utilizar os CPFs listados na tabela [Relacao de cpfs.ods](https://github.com/infoconv/docs).
+
 São cerca de 80 CPF's em todas situações cadastrais.
 
 # Mensagens de Erro de acesso
