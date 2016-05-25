@@ -24,6 +24,11 @@ $ git clone git@github.com:infoconv/infoconv-ws.git
  ![Código de acesso ao certificado](https://github.com/infoconv/docs/blob/master/images/configurar-certificado.png?raw=true "Código de acesso ao certificado")
  - Execute os testes e confira se seu certificado está OK.
 
+# Lista de CPF's para testes
+
+Na base de homologação você pode utilizar os CPF listado na tabela [Relacao de cpfs.ods](https://github.com/infoconv/docs)
+São cerca de 80 CPF's em todas situações cadastrais.
+
 # Mensagens de Erro de acesso
 
  - "ACS - Erro 01 - Acesso negado. CPF do usuário que está
