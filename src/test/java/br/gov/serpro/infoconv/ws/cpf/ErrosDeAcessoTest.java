@@ -139,7 +139,7 @@ public class ErrosDeAcessoTest {
 	}
 
 	@Test
-	public void consultarCPFInvalido() {
+	public void consultarCPFDoConsultanteInvalido() {
 		
 		String CPF_INVALIDO = "";
 
@@ -147,5 +147,6 @@ public class ErrosDeAcessoTest {
 		PessoaPerfil1 pessoa = aPerfil1.getPessoaPerfil1().get(0);
 		assertEquals(pessoa.getErro(), ACS_01);
 	}
+	
 
 }
