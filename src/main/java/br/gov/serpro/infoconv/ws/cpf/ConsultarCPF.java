@@ -22,14 +22,14 @@ import javax.xml.ws.WebServiceFeature;
 
 
 @WebServiceClient(name = "ConsultarCPF", 
-                  wsdlLocation = "https://hom-infoconv.receita.fazenda.gov.br/ws/cpf/consultarcpf.asmx?wsdl",
-                  targetNamespace = "https://hom-infoconv.receita.fazenda.gov.br/ws/cpf/") 
+                  wsdlLocation = "https://infoconv.receita.fazenda.gov.br/ws/cpf/consultarcpf.asmx?wsdl",
+                  targetNamespace = "https://infoconv.receita.fazenda.gov.br/ws/cpf/") 
 public class ConsultarCPF extends Service {
 
     public final static URL WSDL_LOCATION;
-    public final static QName SERVICE = new QName("https://hom-infoconv.receita.fazenda.gov.br/ws/cpf/", "ConsultarCPF");
-    public final static QName ConsultarCPFSoap12 = new QName("https://hom-infoconv.receita.fazenda.gov.br/ws/cpf/", "ConsultarCPFSoap12");
-    public final static QName ConsultarCPFSoap = new QName("https://hom-infoconv.receita.fazenda.gov.br/ws/cpf/", "ConsultarCPFSoap");
+    public final static QName SERVICE = new QName("https://infoconv.receita.fazenda.gov.br/ws/cpf/", "ConsultarCPF");
+    public final static QName ConsultarCPFSoap12 = new QName("https://infoconv.receita.fazenda.gov.br/ws/cpf/", "ConsultarCPFSoap12");
+    public final static QName ConsultarCPFSoap = new QName("https://infoconv.receita.fazenda.gov.br/ws/cpf/", "ConsultarCPFSoap");
     static {
         URL url = null;
         url =  ConsultarCPF.class.getResource("/META-INF/wsdl/consultarcpf.wsdl");

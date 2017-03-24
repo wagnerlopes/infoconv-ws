@@ -15,128 +15,128 @@ import javax.xml.ws.ResponseWrapper;
  * 
  */
  
-@WebService(targetNamespace = "https://hom-infoconv.receita.fazenda.gov.br/ws/cpf/", name = "ConsultarCPFSoap")
+@WebService(targetNamespace = "https://infoconv.receita.fazenda.gov.br/ws/cpf/", name = "ConsultarCPFSoap")
 @XmlSeeAlso({ObjectFactory.class})
 public interface ConsultarCPFSoap {
 
-    @WebResult(name = "ConsultarCPFP1AResult", targetNamespace = "https://hom-infoconv.receita.fazenda.gov.br/ws/cpf/")
-    @RequestWrapper(localName = "ConsultarCPFP1A", targetNamespace = "https://hom-infoconv.receita.fazenda.gov.br/ws/cpf/", className = "br.gov.serpro.infoconv.ws.cpf.ConsultarCPFP1A")
-    @WebMethod(operationName = "ConsultarCPFP1A", action = "https://hom-infoconv.receita.fazenda.gov.br/ws/cpf/ConsultarCPFP1A")
-    @ResponseWrapper(localName = "ConsultarCPFP1AResponse", targetNamespace = "https://hom-infoconv.receita.fazenda.gov.br/ws/cpf/", className = "br.gov.serpro.infoconv.ws.cpf.ConsultarCPFP1AResponse")
+    @WebResult(name = "ConsultarCPFP1AResult", targetNamespace = "https://infoconv.receita.fazenda.gov.br/ws/cpf/")
+    @RequestWrapper(localName = "ConsultarCPFP1A", targetNamespace = "https://infoconv.receita.fazenda.gov.br/ws/cpf/", className = "br.gov.serpro.infoconv.ws.cpf.ConsultarCPFP1A")
+    @WebMethod(operationName = "ConsultarCPFP1A", action = "https://infoconv.receita.fazenda.gov.br/ws/cpf/ConsultarCPFP1A")
+    @ResponseWrapper(localName = "ConsultarCPFP1AResponse", targetNamespace = "https://infoconv.receita.fazenda.gov.br/ws/cpf/", className = "br.gov.serpro.infoconv.ws.cpf.ConsultarCPFP1AResponse")
     public br.gov.serpro.infoconv.ws.cpf.ArrayOfPessoaPerfil1A consultarCPFP1A(
-        @WebParam(name = "ListaDeCPF", targetNamespace = "https://hom-infoconv.receita.fazenda.gov.br/ws/cpf/")
+        @WebParam(name = "ListaDeCPF", targetNamespace = "https://infoconv.receita.fazenda.gov.br/ws/cpf/")
         java.lang.String listaDeCPF,
-        @WebParam(name = "CPFUsuario", targetNamespace = "https://hom-infoconv.receita.fazenda.gov.br/ws/cpf/")
+        @WebParam(name = "CPFUsuario", targetNamespace = "https://infoconv.receita.fazenda.gov.br/ws/cpf/")
         java.lang.String cpfUsuario
     );
 
-    @WebResult(name = "ConsultarCPFP3AResult", targetNamespace = "https://hom-infoconv.receita.fazenda.gov.br/ws/cpf/")
-    @RequestWrapper(localName = "ConsultarCPFP3A", targetNamespace = "https://hom-infoconv.receita.fazenda.gov.br/ws/cpf/", className = "br.gov.serpro.infoconv.ws.cpf.ConsultarCPFP3A")
-    @WebMethod(operationName = "ConsultarCPFP3A", action = "https://hom-infoconv.receita.fazenda.gov.br/ws/cpf/ConsultarCPFP3A")
-    @ResponseWrapper(localName = "ConsultarCPFP3AResponse", targetNamespace = "https://hom-infoconv.receita.fazenda.gov.br/ws/cpf/", className = "br.gov.serpro.infoconv.ws.cpf.ConsultarCPFP3AResponse")
+    @WebResult(name = "ConsultarCPFP3AResult", targetNamespace = "https://infoconv.receita.fazenda.gov.br/ws/cpf/")
+    @RequestWrapper(localName = "ConsultarCPFP3A", targetNamespace = "https://infoconv.receita.fazenda.gov.br/ws/cpf/", className = "br.gov.serpro.infoconv.ws.cpf.ConsultarCPFP3A")
+    @WebMethod(operationName = "ConsultarCPFP3A", action = "https://infoconv.receita.fazenda.gov.br/ws/cpf/ConsultarCPFP3A")
+    @ResponseWrapper(localName = "ConsultarCPFP3AResponse", targetNamespace = "https://infoconv.receita.fazenda.gov.br/ws/cpf/", className = "br.gov.serpro.infoconv.ws.cpf.ConsultarCPFP3AResponse")
     public br.gov.serpro.infoconv.ws.cpf.ArrayOfPessoaPerfil3A consultarCPFP3A(
-        @WebParam(name = "ListaDeCPF", targetNamespace = "https://hom-infoconv.receita.fazenda.gov.br/ws/cpf/")
+        @WebParam(name = "ListaDeCPF", targetNamespace = "https://infoconv.receita.fazenda.gov.br/ws/cpf/")
         java.lang.String listaDeCPF,
-        @WebParam(name = "CPFUsuario", targetNamespace = "https://hom-infoconv.receita.fazenda.gov.br/ws/cpf/")
+        @WebParam(name = "CPFUsuario", targetNamespace = "https://infoconv.receita.fazenda.gov.br/ws/cpf/")
         java.lang.String cpfUsuario
     );
 
-    @WebResult(name = "ConsultarCPFP1Result", targetNamespace = "https://hom-infoconv.receita.fazenda.gov.br/ws/cpf/")
-    @RequestWrapper(localName = "ConsultarCPFP1", targetNamespace = "https://hom-infoconv.receita.fazenda.gov.br/ws/cpf/", className = "br.gov.serpro.infoconv.ws.cpf.ConsultarCPFP1")
-    @WebMethod(operationName = "ConsultarCPFP1", action = "https://hom-infoconv.receita.fazenda.gov.br/ws/cpf/ConsultarCPFP1")
-    @ResponseWrapper(localName = "ConsultarCPFP1Response", targetNamespace = "https://hom-infoconv.receita.fazenda.gov.br/ws/cpf/", className = "br.gov.serpro.infoconv.ws.cpf.ConsultarCPFP1Response")
+    @WebResult(name = "ConsultarCPFP1Result", targetNamespace = "https://infoconv.receita.fazenda.gov.br/ws/cpf/")
+    @RequestWrapper(localName = "ConsultarCPFP1", targetNamespace = "https://infoconv.receita.fazenda.gov.br/ws/cpf/", className = "br.gov.serpro.infoconv.ws.cpf.ConsultarCPFP1")
+    @WebMethod(operationName = "ConsultarCPFP1", action = "https://infoconv.receita.fazenda.gov.br/ws/cpf/ConsultarCPFP1")
+    @ResponseWrapper(localName = "ConsultarCPFP1Response", targetNamespace = "https://infoconv.receita.fazenda.gov.br/ws/cpf/", className = "br.gov.serpro.infoconv.ws.cpf.ConsultarCPFP1Response")
     public br.gov.serpro.infoconv.ws.cpf.ArrayOfPessoaPerfil1 consultarCPFP1(
-        @WebParam(name = "ListaDeCPF", targetNamespace = "https://hom-infoconv.receita.fazenda.gov.br/ws/cpf/")
+        @WebParam(name = "ListaDeCPF", targetNamespace = "https://infoconv.receita.fazenda.gov.br/ws/cpf/")
         java.lang.String listaDeCPF,
-        @WebParam(name = "CPFUsuario", targetNamespace = "https://hom-infoconv.receita.fazenda.gov.br/ws/cpf/")
+        @WebParam(name = "CPFUsuario", targetNamespace = "https://infoconv.receita.fazenda.gov.br/ws/cpf/")
         java.lang.String cpfUsuario
     );
 
-    @WebResult(name = "ConsultarCPFP1TResult", targetNamespace = "https://hom-infoconv.receita.fazenda.gov.br/ws/cpf/")
-    @RequestWrapper(localName = "ConsultarCPFP1T", targetNamespace = "https://hom-infoconv.receita.fazenda.gov.br/ws/cpf/", className = "br.gov.serpro.infoconv.ws.cpf.ConsultarCPFP1T")
-    @WebMethod(operationName = "ConsultarCPFP1T", action = "https://hom-infoconv.receita.fazenda.gov.br/ws/cpf/ConsultarCPFP1T")
-    @ResponseWrapper(localName = "ConsultarCPFP1TResponse", targetNamespace = "https://hom-infoconv.receita.fazenda.gov.br/ws/cpf/", className = "br.gov.serpro.infoconv.ws.cpf.ConsultarCPFP1TResponse")
+    @WebResult(name = "ConsultarCPFP1TResult", targetNamespace = "https://infoconv.receita.fazenda.gov.br/ws/cpf/")
+    @RequestWrapper(localName = "ConsultarCPFP1T", targetNamespace = "https://infoconv.receita.fazenda.gov.br/ws/cpf/", className = "br.gov.serpro.infoconv.ws.cpf.ConsultarCPFP1T")
+    @WebMethod(operationName = "ConsultarCPFP1T", action = "https://infoconv.receita.fazenda.gov.br/ws/cpf/ConsultarCPFP1T")
+    @ResponseWrapper(localName = "ConsultarCPFP1TResponse", targetNamespace = "https://infoconv.receita.fazenda.gov.br/ws/cpf/", className = "br.gov.serpro.infoconv.ws.cpf.ConsultarCPFP1TResponse")
     public br.gov.serpro.infoconv.ws.cpf.ArrayOfPessoaPerfil1 consultarCPFP1T(
-        @WebParam(name = "ListaDeCPF", targetNamespace = "https://hom-infoconv.receita.fazenda.gov.br/ws/cpf/")
+        @WebParam(name = "ListaDeCPF", targetNamespace = "https://infoconv.receita.fazenda.gov.br/ws/cpf/")
         java.lang.String listaDeCPF,
-        @WebParam(name = "CPFUsuario", targetNamespace = "https://hom-infoconv.receita.fazenda.gov.br/ws/cpf/")
+        @WebParam(name = "CPFUsuario", targetNamespace = "https://infoconv.receita.fazenda.gov.br/ws/cpf/")
         java.lang.String cpfUsuario
     );
 
-    @WebResult(name = "ConsultarCPFP3Result", targetNamespace = "https://hom-infoconv.receita.fazenda.gov.br/ws/cpf/")
-    @RequestWrapper(localName = "ConsultarCPFP3", targetNamespace = "https://hom-infoconv.receita.fazenda.gov.br/ws/cpf/", className = "br.gov.serpro.infoconv.ws.cpf.ConsultarCPFP3")
-    @WebMethod(operationName = "ConsultarCPFP3", action = "https://hom-infoconv.receita.fazenda.gov.br/ws/cpf/ConsultarCPFP3")
-    @ResponseWrapper(localName = "ConsultarCPFP3Response", targetNamespace = "https://hom-infoconv.receita.fazenda.gov.br/ws/cpf/", className = "br.gov.serpro.infoconv.ws.cpf.ConsultarCPFP3Response")
+    @WebResult(name = "ConsultarCPFP3Result", targetNamespace = "https://infoconv.receita.fazenda.gov.br/ws/cpf/")
+    @RequestWrapper(localName = "ConsultarCPFP3", targetNamespace = "https://infoconv.receita.fazenda.gov.br/ws/cpf/", className = "br.gov.serpro.infoconv.ws.cpf.ConsultarCPFP3")
+    @WebMethod(operationName = "ConsultarCPFP3", action = "https://infoconv.receita.fazenda.gov.br/ws/cpf/ConsultarCPFP3")
+    @ResponseWrapper(localName = "ConsultarCPFP3Response", targetNamespace = "https://infoconv.receita.fazenda.gov.br/ws/cpf/", className = "br.gov.serpro.infoconv.ws.cpf.ConsultarCPFP3Response")
     public br.gov.serpro.infoconv.ws.cpf.ArrayOfPessoaPerfil3 consultarCPFP3(
-        @WebParam(name = "ListaDeCPF", targetNamespace = "https://hom-infoconv.receita.fazenda.gov.br/ws/cpf/")
+        @WebParam(name = "ListaDeCPF", targetNamespace = "https://infoconv.receita.fazenda.gov.br/ws/cpf/")
         java.lang.String listaDeCPF,
-        @WebParam(name = "CPFUsuario", targetNamespace = "https://hom-infoconv.receita.fazenda.gov.br/ws/cpf/")
+        @WebParam(name = "CPFUsuario", targetNamespace = "https://infoconv.receita.fazenda.gov.br/ws/cpf/")
         java.lang.String cpfUsuario
     );
 
-    @WebResult(name = "ConsultarCPFP2AResult", targetNamespace = "https://hom-infoconv.receita.fazenda.gov.br/ws/cpf/")
-    @RequestWrapper(localName = "ConsultarCPFP2A", targetNamespace = "https://hom-infoconv.receita.fazenda.gov.br/ws/cpf/", className = "br.gov.serpro.infoconv.ws.cpf.ConsultarCPFP2A")
-    @WebMethod(operationName = "ConsultarCPFP2A", action = "https://hom-infoconv.receita.fazenda.gov.br/ws/cpf/ConsultarCPFP2A")
-    @ResponseWrapper(localName = "ConsultarCPFP2AResponse", targetNamespace = "https://hom-infoconv.receita.fazenda.gov.br/ws/cpf/", className = "br.gov.serpro.infoconv.ws.cpf.ConsultarCPFP2AResponse")
+    @WebResult(name = "ConsultarCPFP2AResult", targetNamespace = "https://infoconv.receita.fazenda.gov.br/ws/cpf/")
+    @RequestWrapper(localName = "ConsultarCPFP2A", targetNamespace = "https://infoconv.receita.fazenda.gov.br/ws/cpf/", className = "br.gov.serpro.infoconv.ws.cpf.ConsultarCPFP2A")
+    @WebMethod(operationName = "ConsultarCPFP2A", action = "https://infoconv.receita.fazenda.gov.br/ws/cpf/ConsultarCPFP2A")
+    @ResponseWrapper(localName = "ConsultarCPFP2AResponse", targetNamespace = "https://infoconv.receita.fazenda.gov.br/ws/cpf/", className = "br.gov.serpro.infoconv.ws.cpf.ConsultarCPFP2AResponse")
     public br.gov.serpro.infoconv.ws.cpf.ArrayOfPessoaPerfil2A consultarCPFP2A(
-        @WebParam(name = "ListaDeCPF", targetNamespace = "https://hom-infoconv.receita.fazenda.gov.br/ws/cpf/")
+        @WebParam(name = "ListaDeCPF", targetNamespace = "https://infoconv.receita.fazenda.gov.br/ws/cpf/")
         java.lang.String listaDeCPF,
-        @WebParam(name = "CPFUsuario", targetNamespace = "https://hom-infoconv.receita.fazenda.gov.br/ws/cpf/")
+        @WebParam(name = "CPFUsuario", targetNamespace = "https://infoconv.receita.fazenda.gov.br/ws/cpf/")
         java.lang.String cpfUsuario
     );
 
-    @WebResult(name = "ConsultarCPFPDResult", targetNamespace = "https://hom-infoconv.receita.fazenda.gov.br/ws/cpf/")
-    @RequestWrapper(localName = "ConsultarCPFPD", targetNamespace = "https://hom-infoconv.receita.fazenda.gov.br/ws/cpf/", className = "br.gov.serpro.infoconv.ws.cpf.ConsultarCPFPD")
-    @WebMethod(operationName = "ConsultarCPFPD", action = "https://hom-infoconv.receita.fazenda.gov.br/ws/cpf/ConsultarCPFPD")
-    @ResponseWrapper(localName = "ConsultarCPFPDResponse", targetNamespace = "https://hom-infoconv.receita.fazenda.gov.br/ws/cpf/", className = "br.gov.serpro.infoconv.ws.cpf.ConsultarCPFPDResponse")
+    @WebResult(name = "ConsultarCPFPDResult", targetNamespace = "https://infoconv.receita.fazenda.gov.br/ws/cpf/")
+    @RequestWrapper(localName = "ConsultarCPFPD", targetNamespace = "https://infoconv.receita.fazenda.gov.br/ws/cpf/", className = "br.gov.serpro.infoconv.ws.cpf.ConsultarCPFPD")
+    @WebMethod(operationName = "ConsultarCPFPD", action = "https://infoconv.receita.fazenda.gov.br/ws/cpf/ConsultarCPFPD")
+    @ResponseWrapper(localName = "ConsultarCPFPDResponse", targetNamespace = "https://infoconv.receita.fazenda.gov.br/ws/cpf/", className = "br.gov.serpro.infoconv.ws.cpf.ConsultarCPFPDResponse")
     public br.gov.serpro.infoconv.ws.cpf.ArrayOfPessoaPerfilD consultarCPFPD(
-        @WebParam(name = "ListaDeCPF", targetNamespace = "https://hom-infoconv.receita.fazenda.gov.br/ws/cpf/")
+        @WebParam(name = "ListaDeCPF", targetNamespace = "https://infoconv.receita.fazenda.gov.br/ws/cpf/")
         java.lang.String listaDeCPF,
-        @WebParam(name = "CPFUsuario", targetNamespace = "https://hom-infoconv.receita.fazenda.gov.br/ws/cpf/")
+        @WebParam(name = "CPFUsuario", targetNamespace = "https://infoconv.receita.fazenda.gov.br/ws/cpf/")
         java.lang.String cpfUsuario
     );
 
-    @WebResult(name = "ConsultarCPFP2TResult", targetNamespace = "https://hom-infoconv.receita.fazenda.gov.br/ws/cpf/")
-    @RequestWrapper(localName = "ConsultarCPFP2T", targetNamespace = "https://hom-infoconv.receita.fazenda.gov.br/ws/cpf/", className = "br.gov.serpro.infoconv.ws.cpf.ConsultarCPFP2T")
-    @WebMethod(operationName = "ConsultarCPFP2T", action = "https://hom-infoconv.receita.fazenda.gov.br/ws/cpf/ConsultarCPFP2T")
-    @ResponseWrapper(localName = "ConsultarCPFP2TResponse", targetNamespace = "https://hom-infoconv.receita.fazenda.gov.br/ws/cpf/", className = "br.gov.serpro.infoconv.ws.cpf.ConsultarCPFP2TResponse")
+    @WebResult(name = "ConsultarCPFP2TResult", targetNamespace = "https://infoconv.receita.fazenda.gov.br/ws/cpf/")
+    @RequestWrapper(localName = "ConsultarCPFP2T", targetNamespace = "https://infoconv.receita.fazenda.gov.br/ws/cpf/", className = "br.gov.serpro.infoconv.ws.cpf.ConsultarCPFP2T")
+    @WebMethod(operationName = "ConsultarCPFP2T", action = "https://infoconv.receita.fazenda.gov.br/ws/cpf/ConsultarCPFP2T")
+    @ResponseWrapper(localName = "ConsultarCPFP2TResponse", targetNamespace = "https://infoconv.receita.fazenda.gov.br/ws/cpf/", className = "br.gov.serpro.infoconv.ws.cpf.ConsultarCPFP2TResponse")
     public br.gov.serpro.infoconv.ws.cpf.ArrayOfPessoaPerfil2 consultarCPFP2T(
-        @WebParam(name = "ListaDeCPF", targetNamespace = "https://hom-infoconv.receita.fazenda.gov.br/ws/cpf/")
+        @WebParam(name = "ListaDeCPF", targetNamespace = "https://infoconv.receita.fazenda.gov.br/ws/cpf/")
         java.lang.String listaDeCPF,
-        @WebParam(name = "CPFUsuario", targetNamespace = "https://hom-infoconv.receita.fazenda.gov.br/ws/cpf/")
+        @WebParam(name = "CPFUsuario", targetNamespace = "https://infoconv.receita.fazenda.gov.br/ws/cpf/")
         java.lang.String cpfUsuario
     );
 
-    @WebResult(name = "ConsultarCPFPD2Result", targetNamespace = "https://hom-infoconv.receita.fazenda.gov.br/ws/cpf/")
-    @RequestWrapper(localName = "ConsultarCPFPD2", targetNamespace = "https://hom-infoconv.receita.fazenda.gov.br/ws/cpf/", className = "br.gov.serpro.infoconv.ws.cpf.ConsultarCPFPD2")
-    @WebMethod(operationName = "ConsultarCPFPD2", action = "https://hom-infoconv.receita.fazenda.gov.br/ws/cpf/ConsultarCPFPD2")
-    @ResponseWrapper(localName = "ConsultarCPFPD2Response", targetNamespace = "https://hom-infoconv.receita.fazenda.gov.br/ws/cpf/", className = "br.gov.serpro.infoconv.ws.cpf.ConsultarCPFPD2Response")
+    @WebResult(name = "ConsultarCPFPD2Result", targetNamespace = "https://infoconv.receita.fazenda.gov.br/ws/cpf/")
+    @RequestWrapper(localName = "ConsultarCPFPD2", targetNamespace = "https://infoconv.receita.fazenda.gov.br/ws/cpf/", className = "br.gov.serpro.infoconv.ws.cpf.ConsultarCPFPD2")
+    @WebMethod(operationName = "ConsultarCPFPD2", action = "https://infoconv.receita.fazenda.gov.br/ws/cpf/ConsultarCPFPD2")
+    @ResponseWrapper(localName = "ConsultarCPFPD2Response", targetNamespace = "https://infoconv.receita.fazenda.gov.br/ws/cpf/", className = "br.gov.serpro.infoconv.ws.cpf.ConsultarCPFPD2Response")
     public br.gov.serpro.infoconv.ws.cpf.ArrayOfPessoaPerfilD2 consultarCPFPD2(
-        @WebParam(name = "ListaDeCPF", targetNamespace = "https://hom-infoconv.receita.fazenda.gov.br/ws/cpf/")
+        @WebParam(name = "ListaDeCPF", targetNamespace = "https://infoconv.receita.fazenda.gov.br/ws/cpf/")
         java.lang.String listaDeCPF,
-        @WebParam(name = "CPFUsuario", targetNamespace = "https://hom-infoconv.receita.fazenda.gov.br/ws/cpf/")
+        @WebParam(name = "CPFUsuario", targetNamespace = "https://infoconv.receita.fazenda.gov.br/ws/cpf/")
         java.lang.String cpfUsuario
     );
 
-    @WebResult(name = "ConsultarCPFP3TResult", targetNamespace = "https://hom-infoconv.receita.fazenda.gov.br/ws/cpf/")
-    @RequestWrapper(localName = "ConsultarCPFP3T", targetNamespace = "https://hom-infoconv.receita.fazenda.gov.br/ws/cpf/", className = "br.gov.serpro.infoconv.ws.cpf.ConsultarCPFP3T")
-    @WebMethod(operationName = "ConsultarCPFP3T", action = "https://hom-infoconv.receita.fazenda.gov.br/ws/cpf/ConsultarCPFP3T")
-    @ResponseWrapper(localName = "ConsultarCPFP3TResponse", targetNamespace = "https://hom-infoconv.receita.fazenda.gov.br/ws/cpf/", className = "br.gov.serpro.infoconv.ws.cpf.ConsultarCPFP3TResponse")
+    @WebResult(name = "ConsultarCPFP3TResult", targetNamespace = "https://infoconv.receita.fazenda.gov.br/ws/cpf/")
+    @RequestWrapper(localName = "ConsultarCPFP3T", targetNamespace = "https://infoconv.receita.fazenda.gov.br/ws/cpf/", className = "br.gov.serpro.infoconv.ws.cpf.ConsultarCPFP3T")
+    @WebMethod(operationName = "ConsultarCPFP3T", action = "https://infoconv.receita.fazenda.gov.br/ws/cpf/ConsultarCPFP3T")
+    @ResponseWrapper(localName = "ConsultarCPFP3TResponse", targetNamespace = "https://infoconv.receita.fazenda.gov.br/ws/cpf/", className = "br.gov.serpro.infoconv.ws.cpf.ConsultarCPFP3TResponse")
     public br.gov.serpro.infoconv.ws.cpf.ArrayOfPessoaPerfil3 consultarCPFP3T(
-        @WebParam(name = "ListaDeCPF", targetNamespace = "https://hom-infoconv.receita.fazenda.gov.br/ws/cpf/")
+        @WebParam(name = "ListaDeCPF", targetNamespace = "https://infoconv.receita.fazenda.gov.br/ws/cpf/")
         java.lang.String listaDeCPF,
-        @WebParam(name = "CPFUsuario", targetNamespace = "https://hom-infoconv.receita.fazenda.gov.br/ws/cpf/")
+        @WebParam(name = "CPFUsuario", targetNamespace = "https://infoconv.receita.fazenda.gov.br/ws/cpf/")
         java.lang.String cpfUsuario
     );
 
-    @WebResult(name = "ConsultarCPFP2Result", targetNamespace = "https://hom-infoconv.receita.fazenda.gov.br/ws/cpf/")
-    @RequestWrapper(localName = "ConsultarCPFP2", targetNamespace = "https://hom-infoconv.receita.fazenda.gov.br/ws/cpf/", className = "br.gov.serpro.infoconv.ws.cpf.ConsultarCPFP2")
-    @WebMethod(operationName = "ConsultarCPFP2", action = "https://hom-infoconv.receita.fazenda.gov.br/ws/cpf/ConsultarCPFP2")
-    @ResponseWrapper(localName = "ConsultarCPFP2Response", targetNamespace = "https://hom-infoconv.receita.fazenda.gov.br/ws/cpf/", className = "br.gov.serpro.infoconv.ws.cpf.ConsultarCPFP2Response")
+    @WebResult(name = "ConsultarCPFP2Result", targetNamespace = "https://infoconv.receita.fazenda.gov.br/ws/cpf/")
+    @RequestWrapper(localName = "ConsultarCPFP2", targetNamespace = "https://infoconv.receita.fazenda.gov.br/ws/cpf/", className = "br.gov.serpro.infoconv.ws.cpf.ConsultarCPFP2")
+    @WebMethod(operationName = "ConsultarCPFP2", action = "https://infoconv.receita.fazenda.gov.br/ws/cpf/ConsultarCPFP2")
+    @ResponseWrapper(localName = "ConsultarCPFP2Response", targetNamespace = "https://infoconv.receita.fazenda.gov.br/ws/cpf/", className = "br.gov.serpro.infoconv.ws.cpf.ConsultarCPFP2Response")
     public br.gov.serpro.infoconv.ws.cpf.ArrayOfPessoaPerfil2 consultarCPFP2(
-        @WebParam(name = "ListaDeCPF", targetNamespace = "https://hom-infoconv.receita.fazenda.gov.br/ws/cpf/")
+        @WebParam(name = "ListaDeCPF", targetNamespace = "https://infoconv.receita.fazenda.gov.br/ws/cpf/")
         java.lang.String listaDeCPF,
-        @WebParam(name = "CPFUsuario", targetNamespace = "https://hom-infoconv.receita.fazenda.gov.br/ws/cpf/")
+        @WebParam(name = "CPFUsuario", targetNamespace = "https://infoconv.receita.fazenda.gov.br/ws/cpf/")
         java.lang.String cpfUsuario
     );
 }
