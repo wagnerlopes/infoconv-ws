@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="https://hom-infoconv.receita.fazenda.gov.br/ws/cnpj/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="https://hom-infoconv.receita.fazenda.gov.br/ws/cnpj/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="https://infoconv.receita.fazenda.gov.br/ws/cnpj/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="https://infoconv.receita.fazenda.gov.br/ws/cnpj/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
   <wsdl:types>
-    <s:schema elementFormDefault="qualified" targetNamespace="https://hom-infoconv.receita.fazenda.gov.br/ws/cnpj/">
+    <s:schema elementFormDefault="qualified" targetNamespace="https://infoconv.receita.fazenda.gov.br/ws/cnpj/">
       <s:element name="ConsultarCNPJP1">
         <s:complexType>
           <s:sequence>
@@ -297,7 +297,7 @@
   <wsdl:binding name="ConsultarCNPJSoap" type="tns:ConsultarCNPJSoap">
     <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
     <wsdl:operation name="ConsultarCNPJP1">
-      <soap:operation soapAction="https://hom-infoconv.receita.fazenda.gov.br/ws/cnpj/ConsultarCNPJP1" style="document" />
+      <soap:operation soapAction="https://infoconv.receita.fazenda.gov.br/ws/cnpj/ConsultarCNPJP1" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
       </wsdl:input>
@@ -306,7 +306,7 @@
       </wsdl:output>
     </wsdl:operation>
     <wsdl:operation name="ConsultarCNPJP1T">
-      <soap:operation soapAction="https://hom-infoconv.receita.fazenda.gov.br/ws/cnpj/ConsultarCNPJP1T" style="document" />
+      <soap:operation soapAction="https://infoconv.receita.fazenda.gov.br/ws/cnpj/ConsultarCNPJP1T" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
       </wsdl:input>
@@ -315,7 +315,7 @@
       </wsdl:output>
     </wsdl:operation>
     <wsdl:operation name="ConsultarCNPJP2">
-      <soap:operation soapAction="https://hom-infoconv.receita.fazenda.gov.br/ws/cnpj/ConsultarCNPJP2" style="document" />
+      <soap:operation soapAction="https://infoconv.receita.fazenda.gov.br/ws/cnpj/ConsultarCNPJP2" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
       </wsdl:input>
@@ -324,7 +324,7 @@
       </wsdl:output>
     </wsdl:operation>
     <wsdl:operation name="ConsultarCNPJP2T">
-      <soap:operation soapAction="https://hom-infoconv.receita.fazenda.gov.br/ws/cnpj/ConsultarCNPJP2T" style="document" />
+      <soap:operation soapAction="https://infoconv.receita.fazenda.gov.br/ws/cnpj/ConsultarCNPJP2T" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
       </wsdl:input>
@@ -333,7 +333,7 @@
       </wsdl:output>
     </wsdl:operation>
     <wsdl:operation name="ConsultarCNPJP3">
-      <soap:operation soapAction="https://hom-infoconv.receita.fazenda.gov.br/ws/cnpj/ConsultarCNPJP3" style="document" />
+      <soap:operation soapAction="https://infoconv.receita.fazenda.gov.br/ws/cnpj/ConsultarCNPJP3" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
       </wsdl:input>
@@ -342,7 +342,7 @@
       </wsdl:output>
     </wsdl:operation>
     <wsdl:operation name="ConsultarCNPJP3T">
-      <soap:operation soapAction="https://hom-infoconv.receita.fazenda.gov.br/ws/cnpj/ConsultarCNPJP3T" style="document" />
+      <soap:operation soapAction="https://infoconv.receita.fazenda.gov.br/ws/cnpj/ConsultarCNPJP3T" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
       </wsdl:input>
@@ -354,7 +354,7 @@
   <wsdl:binding name="ConsultarCNPJSoap12" type="tns:ConsultarCNPJSoap">
     <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
     <wsdl:operation name="ConsultarCNPJP1">
-      <soap12:operation soapAction="https://hom-infoconv.receita.fazenda.gov.br/ws/cnpj/ConsultarCNPJP1" style="document" />
+      <soap12:operation soapAction="https://infoconv.receita.fazenda.gov.br/ws/cnpj/ConsultarCNPJP1" style="document" />
       <wsdl:input>
         <soap12:body use="literal" />
       </wsdl:input>
@@ -363,7 +363,7 @@
       </wsdl:output>
     </wsdl:operation>
     <wsdl:operation name="ConsultarCNPJP1T">
-      <soap12:operation soapAction="https://hom-infoconv.receita.fazenda.gov.br/ws/cnpj/ConsultarCNPJP1T" style="document" />
+      <soap12:operation soapAction="https://infoconv.receita.fazenda.gov.br/ws/cnpj/ConsultarCNPJP1T" style="document" />
       <wsdl:input>
         <soap12:body use="literal" />
       </wsdl:input>
@@ -372,7 +372,7 @@
       </wsdl:output>
     </wsdl:operation>
     <wsdl:operation name="ConsultarCNPJP2">
-      <soap12:operation soapAction="https://hom-infoconv.receita.fazenda.gov.br/ws/cnpj/ConsultarCNPJP2" style="document" />
+      <soap12:operation soapAction="https://infoconv.receita.fazenda.gov.br/ws/cnpj/ConsultarCNPJP2" style="document" />
       <wsdl:input>
         <soap12:body use="literal" />
       </wsdl:input>
@@ -381,7 +381,7 @@
       </wsdl:output>
     </wsdl:operation>
     <wsdl:operation name="ConsultarCNPJP2T">
-      <soap12:operation soapAction="https://hom-infoconv.receita.fazenda.gov.br/ws/cnpj/ConsultarCNPJP2T" style="document" />
+      <soap12:operation soapAction="https://infoconv.receita.fazenda.gov.br/ws/cnpj/ConsultarCNPJP2T" style="document" />
       <wsdl:input>
         <soap12:body use="literal" />
       </wsdl:input>
@@ -390,7 +390,7 @@
       </wsdl:output>
     </wsdl:operation>
     <wsdl:operation name="ConsultarCNPJP3">
-      <soap12:operation soapAction="https://hom-infoconv.receita.fazenda.gov.br/ws/cnpj/ConsultarCNPJP3" style="document" />
+      <soap12:operation soapAction="https://infoconv.receita.fazenda.gov.br/ws/cnpj/ConsultarCNPJP3" style="document" />
       <wsdl:input>
         <soap12:body use="literal" />
       </wsdl:input>
@@ -399,7 +399,7 @@
       </wsdl:output>
     </wsdl:operation>
     <wsdl:operation name="ConsultarCNPJP3T">
-      <soap12:operation soapAction="https://hom-infoconv.receita.fazenda.gov.br/ws/cnpj/ConsultarCNPJP3T" style="document" />
+      <soap12:operation soapAction="https://infoconv.receita.fazenda.gov.br/ws/cnpj/ConsultarCNPJP3T" style="document" />
       <wsdl:input>
         <soap12:body use="literal" />
       </wsdl:input>
@@ -410,10 +410,10 @@
   </wsdl:binding>
   <wsdl:service name="ConsultarCNPJ">
     <wsdl:port name="ConsultarCNPJSoap" binding="tns:ConsultarCNPJSoap">
-      <soap:address location="https://hom-infoconv.receita.fazenda.gov.br/ws/cnpj/consultarcnpj.asmx" />
+      <soap:address location="https://infoconv.receita.fazenda.gov.br/ws/cnpj/consultarcnpj.asmx" />
     </wsdl:port>
     <wsdl:port name="ConsultarCNPJSoap12" binding="tns:ConsultarCNPJSoap12">
-      <soap12:address location="https://hom-infoconv.receita.fazenda.gov.br/ws/cnpj/consultarcnpj.asmx" />
+      <soap12:address location="https://infoconv.receita.fazenda.gov.br/ws/cnpj/consultarcnpj.asmx" />
     </wsdl:port>
   </wsdl:service>
 </wsdl:definitions>

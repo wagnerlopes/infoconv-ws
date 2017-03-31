@@ -18,14 +18,14 @@ import javax.xml.ws.WebServiceFeature;
 
 
 @WebServiceClient(name = "ConsultarCNPJ", 
-                  wsdlLocation = "https://hom-infoconv.receita.fazenda.gov.br/ws/cnpj/consultarcnpj.asmx?wsdl",
-                  targetNamespace = "https://hom-infoconv.receita.fazenda.gov.br/ws/cnpj/") 
+                  wsdlLocation = "https://infoconv.receita.fazenda.gov.br/ws/cnpj/consultarcnpj.asmx?wsdl",
+                  targetNamespace = "https://infoconv.receita.fazenda.gov.br/ws/cnpj/") 
 public class ConsultarCNPJ extends Service {
 
     public final static URL WSDL_LOCATION;
-    public final static QName SERVICE = new QName("https://hom-infoconv.receita.fazenda.gov.br/ws/cnpj/", "ConsultarCNPJ");
-    public final static QName ConsultarCNPJSoap = new QName("https://hom-infoconv.receita.fazenda.gov.br/ws/cnpj/", "ConsultarCNPJSoap");
-    public final static QName ConsultarCNPJSoap12 = new QName("https://hom-infoconv.receita.fazenda.gov.br/ws/cnpj/", "ConsultarCNPJSoap12");
+    public final static QName SERVICE = new QName("https://infoconv.receita.fazenda.gov.br/ws/cnpj/", "ConsultarCNPJ");
+    public final static QName ConsultarCNPJSoap = new QName("https://infoconv.receita.fazenda.gov.br/ws/cnpj/", "ConsultarCNPJSoap");
+    public final static QName ConsultarCNPJSoap12 = new QName("https://infoconv.receita.fazenda.gov.br/ws/cnpj/", "ConsultarCNPJSoap12");
     static {
         URL url = null;
         url =  ConsultarCNPJ.class.getResource("/META-INF/wsdl/consultarcnpj.wsdl");
